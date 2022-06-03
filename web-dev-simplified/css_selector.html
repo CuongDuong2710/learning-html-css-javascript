@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        background: #8bc34a;
+      }
+      .blue {
+        background: blue;
+      }
+      div {
+        background: green;
+      }
+      div.one.green-text {
+        border: 3px solid yellow;
+        color: aqua;
+      }
+      span, li.lidot {
+          border: 3px dotted skyblue;
+      }
+      ul li { /* li inside ul */
+          background: olivedrab;
+      }
+      div b { /* b inside div, "space" is any level child */
+          border: 3px double #fff;
+          border-radius: 10px;
+      }
+      span > b { /* b is direct child ">" of span. If you write "div > b" not effect */
+        border: 10px dashed #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one green-text">This is a div</div>
+    <div>This is a div 2</div>
+    <div>This is a div 3</div>
+    <span class="blue">This is a span</span>
+    <span>This is a span 2</span>
+    <ul>
+      <li>Item 1</li>
+      <li class="blue">Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li class="lidot">Item 5</li>
+    </ul>
+    <div>
+        <span>
+            <b>Nested text</b>
+        </span>
+    </div>
+  </body>
+</html>
