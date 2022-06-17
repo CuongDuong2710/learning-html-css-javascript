@@ -39,9 +39,27 @@
       li.blue + li { /* only one "li" tag directly after "li with class blue" */
         border: 3px solid rgb(0, 4, 255);
       }
+      li:hover {
+        background: #8bc34a;
+      }
+      input:focus {
+        background: red;
+      }
+      input:checked {
+        margin: 20px;
+      }
+      li:first-child {
+        background: rebeccapurple;
+      }
+      li:nth-child(2n - 1) {
+        background: rgb(206, 11, 154);
+      }
+      /* :only-of-type, :only-child, :not, [data-red]*^="true,", required, disable */
     </style>
   </head>
   <body>
+    <input type="text">
+    <input type="checkbox">
     <div class="one green-text">This is a div</div>
     <div>This is a div 2</div>
     <div>This is a div 3</div>
