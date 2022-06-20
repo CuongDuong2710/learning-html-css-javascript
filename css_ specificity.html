@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* 0 1 0 0 */
+      #header-id {
+        color: black;
+      }
+      /* 0 0 1 1 */
+      h1.header {
+        color: red !important;
+      }
+      /* 0 0 1 0 */
+      body .header2 {
+        color: blueviolet;
+      }
+      /* 0 0 0 1 */
+      h1 {
+        color: blue;
+      }
+      .text {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1 0 0 0 -->
+    <h1 id="header-id" class="header header2" style="color: cyan;">Header</h1> <!-- style="color: cyan" -->
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer justo
+      leo, bibendum ac risus non, mollis faucibus eros. Donec ac nibh nisi.
+      Maecenas hendrerit sapien eget urna scelerisque, eu congue lacus egestas.
+      In dignissim quam non velit venenatis aliquam.
+    </p>
+  </body>
+</html>
+<!-- style > id > class > element -->
+<!-- h1.header > .header2 // combination > class -->
+<!-- body .header2 > h1.header // body > h1 -->
+<!-- !important > style, combination (1, 0, 0, 0 , 0) -->
