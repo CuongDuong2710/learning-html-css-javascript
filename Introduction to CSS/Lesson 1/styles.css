@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+* {
+  box-sizing: border-box; /* https://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
+  font-family: Raleway;
+  color: #777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block; /* https://www.w3schools.com/css/css_inline-block.asp */
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("Images/Header\ Background.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
