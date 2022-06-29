@@ -159,3 +159,50 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border-bottom: none;
+}
+
+/* inline-block so amount of space item cannot remove, instead of total width is 100% -> set 96%, subtract 1% for each items */
+.tour-item {
+  padding-right: .5em;
+  display: inline-block; /* display "inline" so width is not affected, "inline-block" */
+  /* width: 1000px; */
+}
+
+.tour-date {
+  color: #555;
+  font-weight: bold;
+  width: 11%;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-area {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%; /* fixed width of btn */
+}
+
+.btn-primary {
+  color: white;
+  background-color: #56CCF2;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2D9CDB;
+}
