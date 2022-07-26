@@ -1,7 +1,7 @@
 # Simple Selector
 
-1. [Universal selector](https://github.com/CuongDuong2710/learning-html-css-javascript/edit/master/README.md#universal-selector)
-2. [Type selector](https://github.com/CuongDuong2710/learning-html-css-javascript/edit/master/README.md#type-selector)
+1. [Universal selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#simple-selector-1)
+2. [Type selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#type-selector)
 3. Class selector
 4. ID selector
 5. Attribute selector
