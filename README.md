@@ -79,4 +79,55 @@ This CSS would apply a blue border to the HTML element that has an id of rad, li
 <div id="rad"></div>
 ```
 
+## Attribute selector
+
+You can look for elements that have a certain HTML attribute, or have a certain value for an HTML attribute. nstruct CSS to look for attributes by wrapping the selector with square brackets (`[ ]`).
+
+```sh
+[data-type='primary'] {
+  color: red;
+}
+```
+
+This CSS looks for all elements that have an attribute of data-type with a value of primary, like this:
+
+```sh
+<div data-type="primary"></div>
+```
+
+Instead of looking for a specific value of data-type, you can also look for elements with the attribute present
+
+```sh
+[data-type] {
+  color: red;
+}
+```
+
+```sh
+<div data-type="primary"></div>
+```
+
+Both of these `<div>` elements will have red text.
+
+
+<div data-type="secondary"></div>
+
+Along with case operators, you have access to operators that match portions of strings inside attribute values.
+
+```sh
+/* A href that contains "example.com" */
+[href*='example.com'] {
+  color: red;
+}
+
+/* A href that starts with https */
+[href^='https'] {
+  color: green;
+}
+
+/* A href that ends with .com */
+[href$='.com'] {
+  color: blue;
+}
+```
 
