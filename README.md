@@ -2,10 +2,10 @@
 
 1. [Universal selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#simple-selector-1)
 2. [Type selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#type-selector)
-3. Class selector
-4. ID selector
-5. Attribute selector
-6. Grouping selector
+3. Class selector(https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#class-selector)
+4. ID selector(https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#id-selector)
+5. Attribute selector(https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#attribute-selector)
+6. Grouping selector(https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#grouping-selector)
 
 # Pseudo-classes and pseudo-elements
 
@@ -130,4 +130,19 @@ Along with case operators, you have access to operators that match portions of s
   color: blue;
 }
 ```
+
+## Grouping selectors
+
+A selector doesn't have to match only a single element. You can group multiple selectors by separating them with commas:
+
+```sh
+strong,
+em,
+.my-class,
+[lang] {
+  color: red;
+}
+```
+
+This example extends the color change to both `<strong>` elements and `<em>` elements. It's also extended to a class named `.my-class`, and an element that has a `lang` attribute.
 
