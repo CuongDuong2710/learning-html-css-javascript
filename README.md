@@ -2,10 +2,10 @@
 
 1. [Universal selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#simple-selector-1)
 2. [Type selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#type-selector)
-3. Class selector(https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#class-selector)
-4. ID selector(https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#id-selector)
-5. Attribute selector(https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#attribute-selector)
-6. Grouping selector(https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#grouping-selector)
+3. [Class selector(]https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#class-selector)
+4. [ID selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#id-selector)
+5. [Attribute selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#attribute-selector)
+6. [Grouping selector](https://github.com/CuongDuong2710/learning-html-css-javascript/blob/master/README.md#grouping-selector)
 
 # Pseudo-classes and pseudo-elements
 
