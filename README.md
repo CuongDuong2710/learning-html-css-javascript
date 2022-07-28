@@ -179,3 +179,25 @@ We use a double colon (`::`).
 }
 ```
 
+As in the above demo where you prefixed a link's label with the type of file it was, you can use the `::before` pseudo-element to insert content at the start of an element, or the `::after` pseudo-element to insert content at the end of an element.
+
+You can also use them to target specific parts of an element. For example, suppose you have a list. Use ::marker to style each bullet point (or number) in the list
+
+```sh
+/* Your list will now either have red dots, or red numbers */
+li::marker {
+  color: red;
+}
+```
+
+You can also use `::selection` to style the content that has been highlighted by a user.
+
+```sh
+::selection {
+  background: black;
+  color: white;
+}
+```
+
+
+
