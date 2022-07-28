@@ -146,3 +146,36 @@ em,
 
 This example extends the color change to both `<strong>` elements and `<em>` elements. It's also extended to a class named `.my-class`, and an element that has a `lang` attribute.
 
+---
+
+# Pseudo-classes and pseudo-elements
+
+## Pseudo-classes
+
+HTML elements find themselves in various states, either because they are interacted with, or one of their child elements is in a certain state.
+
+For example, an HTML element could be hovered with the mouse pointer by a user or a child element could also be hovered by the user. For those situations, use the `:hover` pseudo-class.
+
+```sh
+/* Our link is hovered */
+a:hover {
+  outline: 1px dotted green;
+}
+
+/* Sets all even paragraphs to have a different background */
+p:nth-child(even) {
+  background: floralwhite;
+}
+```
+
+## Pseudo-element
+
+Pseudo-elements differ from pseudo-classes because instead of responding to the platform state, they act as if they are inserting a new element with CSS.
+We use a double colon (`::`).
+
+```sh
+.my-element::before {
+  content: 'Prefix - ';
+}
+```
+
