@@ -9,8 +9,8 @@
 
 # Pseudo-classes and pseudo-elements
 
-1. Pseudo-classes
-2. Pseudo-elements
+1. [Pseudo-classes](https://github.com/CuongDuong2710/learning-html-css-javascript#pseudo-classes)
+2. [Pseudo-elements](https://github.com/CuongDuong2710/learning-html-css-javascript#pseudo-element)
 
 # Complex selector
 
