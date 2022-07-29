@@ -199,5 +199,46 @@ You can also use `::selection` to style the content that has been highlighted by
 }
 ```
 
+## Complex selector
 
+```sh
+ul li {
+  /* li inside ul, "space" is any level child */
+  background: olivedrab;
+}
+
+div b {
+  /* b inside div, "space" is any level child */
+  border: 3px double #fff;
+  border-radius: 10px;
+}
+
+span > b {
+  /* b is direct child ">" of span. If you write "div > b" not effect */
+  border: 10px dashed #fff;
+}
+
+li.hi ~ li { /* all "li" tag after "li with class hi" */
+  border: 2px dashed fuchsia;
+}
+
+li.blue + li { /* only one "li" tag directly after "li with class blue" */
+  border: 3px solid rgb(0, 4, 255);
+}
+```
+
+```sh
+<ul>
+  <li class="hi">Item 1</li>
+  <li class="blue">Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+  <li class="lidot">Item 5</li>
+</ul>
+<div>
+  <span>
+    <b>Nested text</b>
+  </span>
+</div>
+```
 
