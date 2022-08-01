@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box; /* https://www.w3schools.com/css/css3_box-sizing.asp */
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+.main-content {
+  background: url(./images/nature-pic.jpg) no-repeat; /* https://www.w3schools.com/cssref/pr_background-repeat.asp */
+  height: 92vh;
+  background-attachment: fixed; /* https://www.w3schools.com/cssref/pr_background-attachment.asp*/
+  background-position: center center;
+  background-size: cover;
+  animation: changeBg ease 15s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeBg {
+  0%,
+  100% {
+    background-image: url(./images/old-car-pic.jpg);
+  }
+  25% {
+    background-image: url(./images/nature-pic.jpg);
+  }
+  50% {
+    background-image: url(./images/sunset-pic.jpg);
+  }
+  75% {
+    background-image: url(./images/circle-pic.jpg);
+  }
+}
