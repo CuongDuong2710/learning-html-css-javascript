@@ -26,5 +26,43 @@ div {
 }
 ```
 
+- Pseudo-element selector
+
+```sh
+::selection {
+  color: red;
+}
+```
+
+### Class, pseudo-class, or attribute selector
+
+A `class`, `pseudo-class` or `attribute` selector gets `10 points of specificity`.
+
+- Class selector
+
+```sh
+.my-class {
+  color: red;
+}
+```
+
+- Pseudo-class selector
+
+```sh
+:hover {
+  color: red;
+}
+```
+
+- Attribute selector
+
+```sh
+[href='#'] {
+  color: red;
+}
+```
+
+
+
 
 
