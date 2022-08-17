@@ -62,6 +62,20 @@ A `class`, `pseudo-class` or `attribute` selector gets `10 points of specificity
 }
 ```
 
+The `:not()` pseudo-class itself adds nothing to the specificity calculation. However, `the selectors passed in as arguments` do get added to the specificity calculation.
+
+```sh
+div:not(.my-class) {
+  color: red;
+}
+```
+
+This sample would have `11 points of specificity` because it has `one type selector (div)` and `one class inside the :not()`.
+
+
+
+
+
 
 
 
