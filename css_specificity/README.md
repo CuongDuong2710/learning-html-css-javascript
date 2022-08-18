@@ -104,9 +104,9 @@ An `!important` rule is applied to a CSS property, so everything in the overall 
 ```
 
 ```sh
-1. Check your understanding
+** Check your understanding **
 
-What is the specificity score of a[href="#"]?
+1. What is the specificity score of a[href="#"]?
 
 > 11
 
@@ -123,6 +123,16 @@ What is the specificity score of a[href="#"]?
 Elements are worth 1 point, classes are worth 10 points, and with 2 classes and 1 element, that makes this selector worth `21 points.`
 
 ```
+
+## Visualizing specificity
+
+In diagrams and specificity calculators, the specificity is often visualized like this:
+
+![Visualizing specificity!](./visualizing_specificity.png "Visualizing specificity")
+
+
+
+
 
 
 
