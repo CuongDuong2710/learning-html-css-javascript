@@ -1,4 +1,4 @@
-[CSS Specificity](https://web.dev/learn/css/specificity/)
+# [CSS Specificity](https://web.dev/learn/css/specificity/)
 
 ## Scoring each selector type
 
@@ -129,6 +129,20 @@ Elements are worth 1 point, classes are worth 10 points, and with 2 classes and 
 In diagrams and specificity calculators, the specificity is often visualized like this:
 
 ![Visualizing specificity!](./visualizing_specificity.png "Visualizing specificity")
+
+
+The left group is `id` selectors. The second group is `class, attribute, and pseudo-class` selectors. The final group is `element and pseudo-element` selectors.
+
+For reference, the following selector is `0-4-1`:
+
+```sh
+a.my-class.another-class[href]:hover {
+  color: lightgrey;
+}
+
+> no Id, 2 classes + 1 attribute + 1 pseudo-class, 1 element
+```
+
 
 
 
