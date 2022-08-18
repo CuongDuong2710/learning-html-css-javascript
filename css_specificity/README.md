@@ -103,6 +103,28 @@ An `!important` rule is applied to a CSS property, so everything in the overall 
 }
 ```
 
+```sh
+1. Check your understanding
+
+What is the specificity score of a[href="#"]?
+
+> 11
+
+2. Which of the following selectors is worth 21 points?
+
+ - article > section
+
+ - article.card.dark
+
+ - article:hover a[href]
+
+> article.card.dark
+
+Elements are worth 1 point, classes are worth 10 points, and with 2 classes and 1 element, that makes this selector worth `21 points.`
+
+```
+
+
 
 
 
